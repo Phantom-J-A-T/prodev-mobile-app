@@ -12,6 +12,13 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-, "babel.config.js"  ]
+    "expo-env.d.ts",
+    "metro.config.js",
+    "babel.config.js",
+    "nativewind-env.d.ts",
+    "app.json"
+  ],
+  "exclude": [
+    "babel.config.js"
+]
 }
