@@ -1,4 +1,4 @@
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import React, { useState } from "react";

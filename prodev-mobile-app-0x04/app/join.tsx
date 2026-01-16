@@ -1,5 +1,5 @@
 import { FACEBOOKLOGO, GOOGLELOGO } from "@/constants";
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import {
