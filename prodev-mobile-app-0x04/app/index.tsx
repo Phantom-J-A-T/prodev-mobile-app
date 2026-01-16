@@ -1,3 +1,4 @@
+import { BACKGROUNDIMAGE, HEROLOGO } from '@/constants';
 import { Dimensions, Image, ImageBackground, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
@@ -8,7 +9,7 @@ export default function Index() {
       <SafeAreaProvider>
         <SafeAreaView style={styles.container}>
          <ImageBackground
-            source={require("@/assets/images/background-image.png")}
+            source={BACKGROUNDIMAGE}
             style={styles.background}
             resizeMode="cover"
             height={Dimensions.get('window').height}
@@ -16,7 +17,7 @@ export default function Index() {
           >
            <View style={styles.companyLogo}>
             <Image 
-            source={require("@/assets/images/Logo.png")} />
+            source={HEROLOGO} />
            </View> 
            <View style={styles.textGroup}>
             <Text style={styles.textLarge}>Find your favorite place here</Text>

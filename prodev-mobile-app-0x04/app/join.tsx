@@ -95,7 +95,7 @@ export default function Join() {
           </Text>
           <Text
             style={styles.signupSubTitleText}
-            onPress={() => router.push("/signin")}
+            onPress={() => router.push("/sign")}
           >
             Sign in
           </Text>
